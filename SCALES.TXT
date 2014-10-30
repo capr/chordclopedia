@@ -1,0 +1,106 @@
+31 26 22 17 12 7
+
+1  3  5  0  0  0
+0  0  0  0  0  0
+
+1  3  5  0  0  0
+0 -1  0  0  0  0
+
+1  2  5  0  0  0
+0  0  0  0  0  0
+
+1  4  5  0  0  0
+0  0  0  0  0  0
+
+1  2  4  5  0  0
+0  0  0  0  0  0
+
+1  3  5  0  0  0
+0  0 -1  0  0  0
+
+1  3  5  6  0  0
+0 -1  0  0  0  0
+
+22
+Major
+2  4  5  7  9 11
+Doric
+2  3  5  7  9 10
+Phrygian
+1  3  5  7  8 10
+Lydian
+2  4  6  7  9 11
+Mysolidian
+2  4  5  7  9 10
+Eolian
+2  3  5  7  8 10
+Locrian
+1  3  5  6  8 10
+Natural Minor
+2  3  5  7  8 10
+Harmonic Minor
+2  3  5  7  8 11
+Locrian 6 "Bequadro"
+1  3  5  6  9 10
+Major 6
+2  4  5  8  9 11
+Lidian Diminished
+2  3  6  7  9 10
+Spanish Scale
+1  4  5  7  8 10
+Lydian 2#
+3  4  6  7  9 11
+SuperLocrian bb7
+1  3  4  6  8  9
+Melodic Minor Scale
+2  3  5  7  9 11
+Doric 2b
+1  3  5  7  9 10
+Lydian Augmented
+2  4  6  8  9 11
+Lydian Dominant
+2  4  6  7  9 10
+Mysolidian  6b
+2  4  5  7  8 10
+Locrian 2#
+2  3  5  6  8 10
+Superlocrian
+1  3  4  6  8 10
+
+#---end of reading---
+
+#Here are some extra scales having other lengths than 7
+#Maybe in future versions of the program, they will be readed too
+
+Major Pentatonic
+2  4  7  9
+Minor Pentatonic
+3  5  7 10
+Blues Major Scale
+2  3  4  7  9
+Blues Minor Scale
+3  5  6  7 10
+Diminished W/H Tone
+2  3  5  6  8  9 11
+Diminished H/W Tone
+1  3  4  6  7  9 10
+Blues Altered Scale
+2  3  4  5  6  7  9 10
+
+# File format (text mode, so between two numbers you may have spaces/lines):
+#     - 6 numbers meaning the number of s-tones relative to A for the guitar
+#       standard tunning, counting from the bass string.
+#     - 7 data chunks in the following format:
+#            - 6 integers meaning the notes on the formula  (1=unison)
+#              (not real notes but note numbers on a scale)
+#            - then 6 integers meaning the notes sharps or flats
+#              we'll consider -1=flated once, 1=sharped once, 0=major
+#     - the number_of_scales contained in the file, then a line, then:
+#     - data chunks (as many as number_of_scales sais) represented by:
+#          - a string of max. 20 characters meaning the scale name
+#          - a line
+#          - 6 numbers separated by spaces/lines meaning the intervals
+#            of the notes 2-7 in the scale (offsets relative to the key)
+#          - then you can type anything, it is not used.
+
+# ChordClopedia v0.9, by Cosmin, 1999.
