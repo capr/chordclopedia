@@ -8,7 +8,7 @@ Oh, and don't forget to check out the Matrix-style rolling-letters screen on the
 
 Everybody loves a screenshot:
 
-![screenshot](http://chordclopedia.googlecode.com/hg/SCREN.PNG)
+![screenshot](https://raw.githubusercontent.com/capr/chordclopedia/master/SCREN.PNG)
 
 
 ----
