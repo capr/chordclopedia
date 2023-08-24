@@ -1,4 +1,4 @@
-This is one of my first actually-useful programs. I wrote it back in hi-school as an exercise in learning both Turbo Pascal and music theory.
+This is one of my first actually-useful programs. I wrote it back in high school as an exercise in learning both Turbo Pascal and music theory.
 
 It's main feature is a chord formation screen where you can choose the key, scale, and notes that form a chord which you can then visualize on a virtual six-string guitar fret. It also displays the selected scale with intervals and the notes corresponding to the chosen key.
 
